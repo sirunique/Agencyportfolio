@@ -100,9 +100,10 @@ body {
 
 /* section */
 
-section {
-  background-color: blue;
-  border-bottom: 3px solid grey;
+.section {
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: black;
 }
 
 .grid-img {
@@ -111,7 +112,7 @@ section {
   display: block;
 }
 
-.grid--2 {
+.element-align {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -119,7 +120,7 @@ section {
 }
 
 .section_2-img {
-  padding: 10px;
+  padding: 15px;
 }
 
 .align-btn {
@@ -131,24 +132,30 @@ section {
   align-items: center;
   text-transform: uppercase;
   background-color: transparent;
+  border: 2px solid gray;
   height: 60px;
   width: 70%;
+}
+
+.btn:hover,
+.btn i:hover {
+  color: gray;
 }
 
 .btn i {
   margin-left: 5px;
 }
 
-.section--3 {
-  display: grid;
-  grid-template-columns: 1fr;
+.row:not(:last-child) {
+  border-bottom: 2px solid grey;
 }
 
-.multi-grid p {
-  border: 2px solid red;
+.grid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
 }
-
-/* section */
 
 /* footer */
 footer {
@@ -214,6 +221,28 @@ footer h3 {
   .toggleBox {
     display: none;
   }
+
+  /* section */
+  .section--2,
+  .section--3 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .element-align {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 3vw;
+    padding: 20% 20% 20% 10%;
+  }
+
+  .first__element-align {
+    align-items: center;
+    padding: 10% 50px;
+  }
+
+  /* section */
 
   /* footer */
   .footer {
