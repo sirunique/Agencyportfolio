@@ -133,8 +133,7 @@ body {
   text-transform: uppercase;
   background-color: transparent;
   border: 2px solid gray;
-  height: 60px;
-  width: 70%;
+  padding: 20px 40px;
 }
 
 .btn:hover,
@@ -230,14 +229,11 @@ footer h3 {
 
   .section p:not(:first-child) {
     width: 85%;
+    font-size: 1.5vw;
   }
 
   .box {
-    border: 2px solid grey;
-  }
-
-  .row {
-    border-bottom: 0;
+    border: 0.2px solid grey;
   }
 
   .element-align {
@@ -248,12 +244,15 @@ footer h3 {
   }
 
   .first__element-align {
+    text-align: center;
     align-items: center;
     padding: 10% 50px;
   }
 
   .grid {
     justify-content: center;
+    font-size: 2vw;
+    padding: 60px 0;
   }
 
   .align-btn {
