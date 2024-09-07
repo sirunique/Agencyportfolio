@@ -50,10 +50,7 @@
     </header>
 
     <section class="section section--1">
-      <div class="grid grid--1">
-        <div class="img img--1"></div>
-        <div class="img img--2"></div>
-      </div>
+        <img class="grid-img" src="images/IMG-20240906-WA0011.jpg" alt="section__img">
       <div class="grid grid--2">
         <p>ABOUT THE STUDIO</p>
         <h2>
@@ -64,7 +61,8 @@
     </section>
 
     <section class="section section--2">
-      <div class="grid grid--1"></div>
+       <div class="section_2-img">
+        <img class="grid-img" src="images/IMG-20240906-WA0012.jpg" alt="section__img"></div> 
       <div class="grid grid--2">
         <p>WHAT WE DO</p>
         <h1>About the Studio</h1>
@@ -77,14 +75,16 @@
           embracing your uniqueness, we create magnetic and sophisticated
           brands.
         </p>
-        <button title="Book your project" type="button" class="btn">
-          Book Your Project(arrow icon)
+        <div class="align-btn">
+<button title="Book your project" type="button" class="btn">
+          Book Your Project<i class="fa-solid fa-arrow-right-long"></i></i>
         </button>
+        </div>
       </div>
     </section>
 
     <section class="section section--3">
-      <div class="grid grid--1">
+      <div class="grid grid--2">
         <h1>Services</h1>
         <p>
           Crafted with care, our services are designed to meet the needs of new
@@ -94,12 +94,15 @@
           the essence of your business and creating a connection with your ideal
           audience.
         </p>
-        <button type="button" title="see details" class="btn">
-          See the Details →
+
+        <div class="align-btn">
+          <button type="button" title="see details" class="btn">
+          See the Details<i class="fa-solid fa-arrow-right-long"></i></i>
         </button>
+        </div>
       </div>
 
-      <div class="grid grid--2">
+      <div class="grid multi-grid grid--2">
         <p>Brand Identity</p>
         <p>Collateral Design</p>
         <p>Packaging Design</p>
@@ -108,94 +111,47 @@
       </div>
     </section>
 
-    <section class="section section--4">
-      <div class="grid grid--1"></div>
-      <div class="grid grid--2">
-        <p><a href="#">MEET THE DESIGNER</a></p>
-        <h1>Hi, I'm Paulina</h1>
-        <p>
-          After graduating in architecture, I rediscovered my passion for art
-          and decided to start my creative journey in the design industry. Due
-          to my technical background, my work focuses on structure and finding
-          aesthetic harmony.
-        </p>
-        <p>
-          I value meaningful connections and authentic beauty. My work balances
-          artistic creativity with a strategic approach, creating designs that
-          are both visually delightful and purpose-driven. I work closely with
-          each client, embracing their vision to create something truly special
-          and meaningful.
-        </p>
-        <button title="let's connect" type="button" class="btn">
-          Let's Connect(arrow)
-        </button>
-      </div>
-    </section>
-
-    <section class="section section--5">
-      <h2>See Selected Case Studies</h2>
-      <div class="product__images">
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-      </div>
-    </section>
-
-    <section class="section section--6">
-      <p>follow our journey</p>
-      <div class="product__images">
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-        <img src="" alt="" class="product--img" />
-      </div>
-    </section>
 
     <footer class="footer">
       <div class="flex">
-        <img src="" alt="" class="footer--logo" />
+        <img
+          src="images/IMG-20240906-WA0001-removebg-preview.png"
+          alt="footer logo"
+          class="footer--logo"
+        />
         <h3>Let's connect! I 'd love to hear from you!</h3>
-        <p>hello@polafijalkocreative.com</p>
+        <a href="" class="footer-link"><p>hello@polafijalkocreative.com</p></a>
         <span>Based in EU, working worldwide</span>
       </div>
 
       <div class="flex">
         <div class="gap">
-          <h2>Pinterest</h2>
-          <h2>Instagram</h2>
+          <a href="#" class="footer-link"><h2>Pinterest</h2></a>
+          <a href="#" class="footer-link"><h2>Instagram</h2></a>
         </div>
 
-        <ul>
-          <li><a href="#">Our Etsy Store</a></li>
-          <li><a href="#">Behance</a></li>
-        </ul>
-
-        <span>ALL RIGHTS RESERVED. ©2024 POLA FIJALKO CREATIVE</span>
-      </div>
-
-      <div class="flex">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Shop</a></li>
+        <ul class="footer-links">
+          <li><a class="footer-link" href="#">Our Etsy Store</a></li>
+          <li><a class="footer-link" href="#">Behance</a></li>
         </ul>
       </div>
 
       <div class="flex">
-        <ul>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
+        <ul class="footer-links">
+          <li><a class="footer-link" href="#">Home</a></li>
+          <li><a class="footer-link" href="#">About</a></li>
+          <li><a class="footer-link" href="#">Services</a></li>
+          <li><a class="footer-link" href="#">Work</a></li>
+          <li><a class="footer-link" href="#">Shop</a></li>
         </ul>
-        <a href="#">Inquire</a>
+      </div>
+
+      <div class="flex">
+        <ul class="footer-links">
+          <li><a class="footer-link" href="#">Terms & Conditions</a></li>
+          <li><a class="footer-link" href="#">Privacy Policy</a></li>
+        </ul>
+        <a class="footer-link href="#">Inquire</a>
       </div>
     </footer>
   </body>
