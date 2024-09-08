@@ -185,6 +185,11 @@ footer {
   height: 200px;
 }
 
+.email-link:hover,
+.social-link:hover {
+  color: black;
+}
+
 .footer-links {
   display: flex;
   flex-direction: column;
