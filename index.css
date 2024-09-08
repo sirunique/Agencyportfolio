@@ -78,12 +78,13 @@ body {
   letter-spacing: 2px;
 }
 
-.nav__link:after {
+.nav__link:after,
+.footer-link:after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
-  height: 3px;
+  bottom: -8px;
+  height: 2.5px;
   width: 100%;
   background: white;
   transform: scaleX(0);
@@ -91,7 +92,8 @@ body {
   transition: transform 0.4s linear;
 }
 
-.nav__link:hover:after {
+.nav__link:hover:after,
+.footer-link:hover:after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -111,6 +113,10 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.img-2 {
+  display: none;
 }
 
 .element-align {
@@ -182,11 +188,11 @@ footer {
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
-.footer-link:hover {
-  color: red;
+.footer-link {
+  position: relative;
 }
 
 footer h3 {
@@ -234,6 +240,16 @@ footer h3 {
   .section--2,
   .section--3 {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+
+  .img-2 {
+    display: block;
   }
 
   .section p {
