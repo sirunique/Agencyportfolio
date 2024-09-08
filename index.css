@@ -135,15 +135,23 @@ body {
   background-color: transparent;
   border: 2px solid gray;
   padding: 20px 40px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
 }
 
-.btn:hover,
-.btn i:hover {
+.btn:hover {
   color: gray;
+  transform: scale(1.05);
 }
 
 .btn i {
   margin-left: 5px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover i {
+  color: gray;
+  transform: scale(1.05);
 }
 
 .row:not(:last-child) {
