@@ -185,6 +185,11 @@ footer {
   height: 200px;
 }
 
+.email-link,
+.social-link {
+  transition: color 0.5s ease;
+}
+
 .email-link:hover,
 .social-link:hover {
   color: black;
