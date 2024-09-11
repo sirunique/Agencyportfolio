@@ -2,9 +2,9 @@
 <?php include('./components/header.php'); ?>
 
 <!-- Page Content -->
-<section class="section row section--1">
-    <img class='grid-img img1' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <div class='element-align'>
+<section class="section row section--2">
+    <img class='grid-img grid1 img1' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <div class='element-align grid2'>
         <p>OUR SERVICES</p>
         <h1>Our Thoughtful Offerings</h1>
         <p>Our services are thoughtfully designed to meet the needs of both new and established businesses. We are also very flexible when it comes to creating the perfect package for you. Your best fit may be a more custom approach and fully customized package. For a more individual approach, please ask via mail.</p>
