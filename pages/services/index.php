@@ -3,20 +3,20 @@
 
 <!-- Page Content -->
 <section class="section row section--1">
-    <img class='grid-img section_2-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img img1' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class='element-align'>
         <p>OUR SERVICES</p>
         <h1>Our Thoughtful Offerings</h1>
         <p>Our services are thoughtfully designed to meet the needs of both new and established businesses. We are also very flexible when it comes to creating the perfect package for you. Your best fit may be a more custom approach and fully customized package. For a more individual approach, please ask via mail.</p>
-        <a class='email-link' href="#">hello@polafijalkocreative.com</a>
+        <p>hello@polafijalkocreative.com</p>
     </div>
 </section>
 
-<section class="section section--2" style="padding-bottom: 25px;">
-    <h2 style="font-size: 30px; margin: 20px;">Branding Offer</h2>
+<section class="section section--2 section-padding">
+    <h2 class="branding">Branding Offer</h2>
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class="element-align">
-        <div style="display: flex; justify-content: space-between;">
+        <div class="space-between">
             <p>1-2 WEEKS</p>
             <p>€ 650 / 700 USD</p>
         </div>
@@ -25,7 +25,7 @@
         </p>
 
         <p>What's included:</p>
-        <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+        <ul class="services-lists">
             <li>Creative Direction</li>
             <li>Copyright Transfer</li>
             <li>1-2 Logos</li>
@@ -33,10 +33,10 @@
     </div>
 </section>
 
-<section class="section section--3" style="padding-bottom: 25px;">
+<section class="section section--3 section-padding">
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class="element-align">
-        <div style="display: flex; justify-content: space-between;">
+        <div class="space-between">
             <p>3-4 WEEKS</p>
             <p>€ 650 / 700 USD</p>
         </div>
@@ -45,7 +45,7 @@
         </p>
 
         <p>What's included:</p>
-        <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+        <ul class="services-lists">
             <li>Brandboard</li>
             <li>Basic Brand Guidelines</li>
             <li>Typography Suite</li>
@@ -56,15 +56,14 @@
             <li>Creative Direction</li>
             <li>Branding Questionnaire</li>
             <li>Copyright Transfer</li>
-
         </ul>
     </div>
 </section>
 
-<section class="section section--4" style="padding-bottom: 25px;">
+<section class="section row section--4 section-padding">
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class="element-align">
-        <div style="display: flex; justify-content: space-between;">
+        <div class="space-between">
             <p>8-12 Weeks</p>
             <p>€ 650 / 700 USD</p>
         </div>
@@ -73,7 +72,7 @@
         </p>
 
         <p>What's included:</p>
-        <ul style="display: flex; flex-direction: column; gap: 0.5rem;">
+        <ul class="services-lists">
             <li>Creative Direction</li>
             <li>Copyright Transfer</li>
             <li>1-2 Logos</li>
@@ -93,13 +92,36 @@
 
 
 <section class="section row section--5">
-    <img src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <div>
-        <p>OUR SERVICES</p>
-        <h1>Our Thoughtful Offerings</h1>
-        <p>Our services are thoughtfully designed to meet the needs of both new and established businesses. We are also very flexible when it comes to creating the perfect package for you. Your best fit may be a more custom approach and fully customized package. For a more individual approach, please ask via mail.</p>
-        <a href="#">hello@polafijalkocreative.com</a>
+    <img class='grid-img section_2-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <div class="element-align">
+        <h1>Other Services</h1>
+        <p>We offer a variety of additional services to meet your unique needs:</p>
+
+        <p>What's included:</p>
+        <ul style="display: flex; flex-direction: column; gap: 0.8rem;">
+            <li>Brandboard</li>
+            <li>Basic Brand Guidelines</li>
+            <li>Typography Suite</li>
+            <li>Color Palette</li>
+        </ul>
+
+        <p>If you would like to know the details of our other offerings and learn more about our pricing and process - please fill out the application form</p>
+
+        <a class="inquire" href="#">Inquire</a>
     </div>
+</section>
+
+<section class="section row section--6 projectBtn-section">
+    <button class="btn">Book Your Project</button>
+</section>
+
+<section class="section row section--7">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
 </section>
 
 <!-- Footer -->
