@@ -80,12 +80,13 @@
   /* Desktop and tablet view */
   @media only screen and (min-width: 780px) {
     .section:not(:last-of-type) {
-      padding: 40px 0 40px 80px;
+      padding: 40px 0 20px 80px;
+      gap: 2vw;
     }
 
     .section:nth-of-type(5) {
       grid-template-columns: auto auto;
-      padding-left: 200px;
+      padding-left: 10vw;
     }
 
     .element-align {
@@ -121,11 +122,9 @@
     .img3,
     .img4,
     .img5 {
-      height: 500px;
-      width: 400px;
+      height: 90%;
+      width: 25vw;
     }
-
-    .grid-img {}
 
     .img1 {
       padding: 0;
@@ -153,7 +152,7 @@
 
     .services--7 {
       grid-template-columns: repeat(3, 1fr);
-      padding: 7rem 15rem;
+      padding: 7vw 15vw;
       gap: 2rem;
     }
 
