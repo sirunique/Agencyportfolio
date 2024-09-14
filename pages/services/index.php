@@ -63,7 +63,7 @@
         </div>
     </section>
 
-    <section class="section services  row services--4 section-padding">
+    <section class="section services row services--4 section-padding">
         <img class='grid-img img4' src="images/IMG-20240906-WA0012.jpg" alt="images">
 
         <div class="element-align">
@@ -95,7 +95,7 @@
     </section>
 
 
-    <section class="section  services row services--5">
+    <section class="section  services row services--5 section-padding">
         <img class='grid-img services_grid1 section_2-img img5' src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align services_grid2 ">
             <h1>Other Services</h1>

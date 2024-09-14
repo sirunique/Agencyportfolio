@@ -1,7 +1,9 @@
 <style>
-  .section {
+  .section:not(:nth-of-type(6)) {
     display: grid;
     grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
   }
 
   .row:not(:last-child) {
@@ -11,6 +13,7 @@
   .element-align {
     display: flex;
     flex-direction: column;
+    justify-content: left;
     gap: 1.5rem;
     padding: 25px;
   }
@@ -69,19 +72,27 @@
     padding: 20px;
   }
 
+  .section_2-img:last-of-type {
+    padding: 40px;
+  }
 
 
   /* Desktop and tablet view */
   @media only screen and (min-width: 780px) {
-    .section {
-      justify-content: center;
-      align-items: center;
+    .section:not(:last-of-type) {
+      padding: 40px 0 40px 80px;
+    }
+
+    .section:nth-of-type(5) {
+      grid-template-columns: auto auto;
+      padding-left: 200px;
     }
 
     .element-align {
       align-items: left;
       justify-content: center;
       gap: 2vw;
+      width: 80%;
       padding: 0;
     }
 
@@ -114,9 +125,10 @@
       width: 400px;
     }
 
+    .grid-img {}
 
     .img1 {
-      padding: 20px;
+      padding: 0;
     }
 
     .branding,
