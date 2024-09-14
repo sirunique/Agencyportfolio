@@ -34,7 +34,7 @@
     }
 
     .grid-img {
-        padding-bottom: 5px;
+        padding-bottom: 1rem;
         flex: 1;
         height: 100%;
         width: 100%;
@@ -46,6 +46,8 @@
     .slide {
         display: flex;
         justify-content: space-between;
+        text-align: left;
+
     }
 
     .space-between a {
@@ -67,6 +69,7 @@
     .projectBtn-section .btn {
         letter-spacing: 5px;
     }
+
 
     /* Work--2 */
     .work--2 {
@@ -94,6 +97,10 @@
         .grid-img {
             height: 90%;
             width: 25vw;
+        }
+
+        .space-between a {
+            display: block;
         }
     }
 
