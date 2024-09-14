@@ -1,4 +1,8 @@
 <style>
+    .section {
+        padding: 0 1rem;
+    }
+
     .work--1 {
         padding: 7rem 2rem;
         display: flex;
@@ -38,7 +42,8 @@
         display: block;
     }
 
-    .space-between {
+    .space-between,
+    .slide {
         display: flex;
         justify-content: space-between;
     }
@@ -46,7 +51,6 @@
     .space-between a {
         display: none;
     }
-
 
     .element-align {
         display: flex;
@@ -59,6 +63,30 @@
     .projectBtn-section {
         padding: 10px 20px;
     }
+
+    .projectBtn-section .btn {
+        letter-spacing: 5px;
+    }
+
+    /* Work--2 */
+    .work--2 {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        padding-bottom: 6rem;
+    }
+
+    .work--2 h1 {
+        font-size: 5vw;
+    }
+
+    .work--2 .btn {
+        margin: 50px 20vw 0 20vw;
+        text-transform: capitalize;
+    }
+
+    /* Work--2 */
+
 
 
     /* Desktop view */
