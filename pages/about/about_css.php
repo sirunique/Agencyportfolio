@@ -31,11 +31,15 @@
         display: block;
     }
 
-    .services--7 {
+    .about--2 {
         display: grid;
         grid-template-columns: repeat(3, auto);
         gap: 1rem;
         padding: 1rem;
+    }
+
+    span {
+        display: none;
     }
 
 
@@ -58,17 +62,26 @@
             font-size: 3vw;
         }
 
-        .services {
+        .about {
             display: grid;
             grid-template-columns: 1fr 1fr;
         }
 
+        /* .about--2:first-child {
+            padding: 7vw 15vw 0 15vw;
+            gap: 1rem;
+        } */
 
-
-        .services--7 {
+        .about--2 {
             grid-template-columns: repeat(3, 1fr);
-            padding: 7vw 15vw;
+            padding: 2vw 15vw 7vw 15vw;
             gap: 2rem;
+        }
+
+        span {
+            display: block;
+            font-size: 10px;
+            padding: 5vw 0 0 15vw;
         }
 
     }
