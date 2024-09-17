@@ -61,13 +61,24 @@ include('./pages/inquire/inquire_css.php');
                 <input type="text" class="form-control" id="about-us">
             </div>
         </form>
-        <button class="submit" type="submit">Send</button>
+        <div class="button">
+            <button class="submit" type="submit">Send</button>
+        </div>
     </div>
 
 
 </section>
 
-<section class="section inquire--2 row">
+<section class="section row inquire--2">
+    <div class="element-align">
+        <p>Exclusive Referral Program</p>
+        <h1>Have We Already Worked With Each Other?</h1>
+        <p>We cherish our past clients and value their continued trust. Recommend us to your friend, and if we sign a contract, your friend will get a 10% discount on any of our service. You’ll receive a 500 USD gift to use toward our services. This gift can be applied as a discount on any service or fully cover custom projects up to 500 USD, like collateral designs.</p>
+    </div>
+    <img class='grid-img img5' src="images/IMG-20240906-WA0012.jpg" alt="images">
+</section>
+
+<section class="section inquire--3 row">
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
     <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">

@@ -91,7 +91,7 @@ include('./pages/work/work_css.php'); // linking css work page
         <h1>Other Work</h1>
         <p>A collection of logos and other design works. With a sophisticated approach, we aim to mindfully capture the essence of each project. Our studio prioritizes minimalism and a premium aesthetic, driven by a passion for precision.</p>
         <button class="btn">
-            See Our Logofolio<i class="fa-thin fa-arrow-right-long"></i>
+            See Our Logofolio</i>
         </button>
     </div>
 </section>

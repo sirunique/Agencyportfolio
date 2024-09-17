@@ -5,6 +5,10 @@
         gap: 2rem;
     }
 
+    h1 {
+        font-size: 2.5em;
+    }
+
     .element-align {
         display: flex;
         flex-direction: column;
@@ -26,6 +30,10 @@
     }
 
     .inquire--2 {
+        display: none;
+    }
+
+    .inquire--3 {
         grid-template-columns: 1fr 1fr;
         grid-template-columns: repeat(3, 1fr);
         padding: 7vw 15vw;
@@ -72,12 +80,22 @@
 
     /* forms */
 
+
+    .button {
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .submit {
-        justify-content: right;
         border: none;
         background: none;
         text-transform: uppercase;
         cursor: pointer;
+    }
+
+    .email-link:hover,
+    .submit:hover {
+        color: gray;
     }
 
     /* Desktop view */
@@ -85,6 +103,25 @@
         .inquire--1 {
             grid-template-columns: 1fr 1fr;
             gap: 0 10vw;
+        }
+
+        h1 {
+            font-size: 2vw;
+        }
+
+        .inquire--2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            right: 0;
+            gap: 7rem;
+            padding: 2vw 2vw 2vw 15vw;
+        }
+
+        .img5 {
+            height: 90%;
+            width: 25vw;
+            padding: 20px;
         }
 
         .forms {
