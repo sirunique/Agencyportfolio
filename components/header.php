@@ -9,7 +9,9 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css" />
     <script defer src="index.js"></script>
-    <title>Agencyportfolio Project</title>
+
+</head>
+<title>Agencyportfolio Project</title>
 </head>
 
 <body>

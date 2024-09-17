@@ -5,7 +5,7 @@
             alt="footer logo"
             class="footer--logo" />
         <h3>Let's connect! I 'd love to hear from you!</h3>
-        <a href="">
+        <a href="#">
             <p class="email-link">hello@deenspohub.com</p>
         </a>
         <span>Based in Africa, Nigeria working worldwide</span>

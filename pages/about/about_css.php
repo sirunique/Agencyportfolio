@@ -67,11 +67,6 @@
             grid-template-columns: 1fr 1fr;
         }
 
-        /* .about--2:first-child {
-            padding: 7vw 15vw 0 15vw;
-            gap: 1rem;
-        } */
-
         .about--2 {
             grid-template-columns: repeat(3, 1fr);
             padding: 2vw 15vw 7vw 15vw;
