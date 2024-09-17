@@ -17,10 +17,10 @@
 <body>
     <header class="header">
         <div class="logo">
-            <img
-                src="images/IMG-20240906-WA0002-removebg.png"
-                alt="company's logo"
-                class="nav-logo" />
+            <a href="#"><img
+                    src="images/IMG-20240906-WA0002-removebg.png"
+                    alt="company's logo"
+                    class="nav-logo" /></a>
         </div>
 
         <nav class="navbar">
