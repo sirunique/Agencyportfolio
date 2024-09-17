@@ -7,7 +7,7 @@
         padding: 0 1rem;
     }
 
-    .work--1 {
+    /* .work--1 {
         padding: 7rem 2rem;
         display: flex;
         flex-direction: column;
@@ -15,7 +15,7 @@
         align-items: center;
         text-align: center;
         gap: 4rem;
-    }
+    } */
 
     .work-text {
         width: 80%;
