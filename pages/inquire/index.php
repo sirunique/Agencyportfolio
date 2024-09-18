@@ -6,7 +6,7 @@ include('./pages/inquire/inquire_css.php');
 
 <!-- Page Content -->
 <section class="section inquire--1 row">
-    <img class='grid-img inquire-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img inquire-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class="forms element-align">
         <h1>Get in Touch</h1>
         <h3>Ready to visualize your brand's highest self? We'd love to hear from you! Please fill out the form below and let's connect.</h3>
@@ -75,16 +75,16 @@ include('./pages/inquire/inquire_css.php');
         <h1>Have We Already Worked With Each Other?</h1>
         <p>We cherish our past clients and value their continued trust. Recommend us to your friend, and if we sign a contract, your friend will get a 10% discount on any of our service. You’ll receive a 500 USD gift to use toward our services. This gift can be applied as a discount on any service or fully cover custom projects up to 500 USD, like collateral designs.</p>
     </div>
-    <img class='grid-img img5' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img img5 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
 </section>
 
 <section class="section inquire--3 row">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
 </section>
 
 <!-- Footer -->

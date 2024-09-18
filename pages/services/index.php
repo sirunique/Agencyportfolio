@@ -6,7 +6,7 @@
 
     <!-- Page Content -->
     <section class="section  services row services--1">
-        <img class='grid-img services_grid1  img1' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img services_grid1 img1 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class='element-align services_grid2 '>
             <p>OUR SERVICES</p>
             <h1>Our Thoughtful Offerings</h1>
@@ -17,7 +17,7 @@
 
     <section class="section  services row services--2 section-padding">
         <h2 class="branding">Branding Offer</h2>
-        <img class='grid-img img2' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img2 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align">
             <div class="space-between">
                 <p>1-2 WEEKS</p>
@@ -37,7 +37,7 @@
     </section>
 
     <section class="section  services row services--3 section-padding">
-        <img class='grid-img img3' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img3 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align">
             <div class="space-between">
                 <p>3-4 WEEKS</p>
@@ -64,7 +64,7 @@
     </section>
 
     <section class="section services row services--4 section-padding">
-        <img class='grid-img img4' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img4 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
 
         <div class="element-align">
             <div class="space-between">
@@ -96,7 +96,7 @@
 
 
     <section class="section  services row services--5 section-padding">
-        <img class='grid-img services_grid1 section_2-img img5' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img services_grid1 section_2-img img5 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align services_grid2 ">
             <h1>Other Services</h1>
             <p>We offer a variety of additional services to meet your unique needs:</p>
@@ -120,12 +120,12 @@
     </section>
 
     <section class="section  services row services--7">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
     </section>
 
     <!-- Footer -->

@@ -100,12 +100,24 @@ body {
 
 /* Navbar */
 
+/* lazy loading */
+.lazy-img {
+  filter: blur(15px);
+}
+/* lazy loading */
+
 /* section */
 
 .section {
   display: grid;
   grid-template-rows: auto auto;
   background-color: black;
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(5rem);
 }
 
 .overlay--text {

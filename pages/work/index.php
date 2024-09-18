@@ -10,7 +10,7 @@ include('./pages/work/work_css.php'); // linking css work page
     <p class="work-text">A few past loves. Here you’ll find a collection of our selected case studies</p>
     <div class="images-container">
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -18,7 +18,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class=" img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -26,7 +26,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -34,7 +34,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -42,7 +42,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -50,7 +50,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -58,7 +58,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -66,7 +66,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="details.php"><img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
+            <a href="details.php"><img class="grid-img lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="product image"></a>
             <div class="space-between">
                 <p>Nala</p>
                 <a href="details.php">See more</a>
@@ -79,7 +79,7 @@ include('./pages/work/work_css.php'); // linking css work page
 
 <section class="section row work--2">
     <div class="slides">
-        <img src="images/IMG-20240906-WA0013.jpg" alt="image" class="grid-img">
+        <img src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="image" class="grid-img lazy-img">
         <div class="slide">
             <a href="" class="left"><i class="fa-thin fa-arrow-left-long"></i>previous</a>
             <a href="" class="right">next<i class="fa-thin fa-arrow-right-long"></i></a>

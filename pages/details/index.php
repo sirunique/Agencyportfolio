@@ -5,7 +5,7 @@ include('./pages/details/details_css.php'); // linking css work page
 ?>
 
 
-<section class="section detail">
+<section class="section detail section--show">
     <div class="text">
         <div class="column element-align">
             <h1>NALA</h1>
@@ -16,23 +16,23 @@ include('./pages/details/details_css.php'); // linking css work page
     </div>
 
     <div class="work_details">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="dual-img">
-            <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-            <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+            <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+            <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         </div>
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="dual-img">
-            <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-            <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+            <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+            <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         </div>
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <button class="back" type="submit">Back</button>
     </div>
 </section>

@@ -9,6 +9,11 @@
         padding: 0 2rem;
     }
 
+    .section--show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
     h1 {
         letter-spacing: 5px;
     }
@@ -16,7 +21,6 @@
     .work_details {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         padding: 4rem 2rem;
         gap: 3vw;
     }
@@ -32,6 +36,7 @@
     }
 
     .back {
+        align-self: flex-start;
         border: none;
         background: none;
         text-transform: uppercase;
