@@ -13,35 +13,37 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img
-                src="images/IMG-20240906-WA0002-removebg.png"
-                alt="company's logo"
-                class="nav-logo" />
-        </div>
+    <div class="header-placeholder">
+        <header class="header">
+            <div class="logo">
+                <img
+                    src="images/IMG-20240906-WA0002-removebg.png"
+                    alt="company's logo"
+                    class="nav-logo" />
+            </div>
 
-        <nav class="navbar">
-            <ul class="nav__links">
-                <li class="nav__item">
-                    <a title="navigation button" href="about.php" class="nav__link">about</a>
-                </li>
-                <li class="nav__item">
-                    <a title="navigation button" href="services.php" class="nav__link">services</a>
-                </li>
-                <li class="nav__item">
-                    <a title="navigation button" href="work.php" class="nav__link">work</a>
-                </li>
-                <li class="nav__item">
-                    <a title="navigation button" href="#" class="nav__link">shop</a>
-                </li>
-                <li class="nav__item">
-                    <a title="navigation button" href="inquire.php" class="nav__link">inquire</a>
-                </li>
-            </ul>
-        </nav>
+            <nav class="navbar">
+                <ul class="nav__links">
+                    <li class="nav__item">
+                        <a title="navigation button" href="about.php" class="nav__link">about</a>
+                    </li>
+                    <li class="nav__item">
+                        <a title="navigation button" href="services.php" class="nav__link">services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a title="navigation button" href="work.php" class="nav__link">work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a title="navigation button" href="#" class="nav__link">shop</a>
+                    </li>
+                    <li class="nav__item">
+                        <a title="navigation button" href="inquire.php" class="nav__link">inquire</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <div class="toggleBox">
-            <a title="toggle button" class="toggle__btn" href="#"><i class="fa-solid fa-bars menu"></i><i class="fa-solid fa-xmark close"></i></a>
-        </div>
-    </header>
+            <div class="toggleBox">
+                <a title="toggle button" class="toggle__btn" href="#"><i class="fa-solid fa-bars menu"></i><i class="fa-solid fa-xmark close"></i></a>
+            </div>
+        </header>
+    </div>

@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.3s ease;
 }
 
 .nav-logo {
@@ -98,7 +99,21 @@ body {
   transform-origin: left;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.7);
+  z-index: 1000;
+}
+
 /* Navbar */
+
+/* lazy loading */
+.lazy-img {
+  filter: blur(15px);
+}
+/* lazy loading */
 
 /* section */
 
@@ -106,6 +121,12 @@ body {
   display: grid;
   grid-template-rows: auto auto;
   background-color: black;
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(5rem);
 }
 
 .overlay--text {
