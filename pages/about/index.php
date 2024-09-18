@@ -6,7 +6,7 @@ include('./pages/about/about_css.php');
 
 <!-- Page Content -->
 <section class="section about row about--1">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class='element-align'>
         <p>ABOUT</p>
         <h1>The Designer</h1>
@@ -20,12 +20,12 @@ include('./pages/about/about_css.php');
 <section class="section row">
     <span>FOLLOW OUR JOURNEY</span>
     <div class="about--2">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
     </div>
 
 </section>
