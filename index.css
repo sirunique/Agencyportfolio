@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.3s ease;
 }
 
 .nav-logo {
@@ -96,6 +97,14 @@ body {
 .footer-link:hover:after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.7);
+  z-index: 1000;
 }
 
 /* Navbar */

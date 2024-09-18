@@ -1,5 +1,6 @@
 "use strict";
 // DOM
+const headerPlaceholder = document.querySelector(".header-placeholder");
 const header = document.querySelector(".header");
 const navbar = document.querySelector(".navbar");
 const toggleBtn = document.querySelector(".toggle__btn");
@@ -18,6 +19,28 @@ toggleBtn.addEventListener("click", () => {
 });
 // Mobile nav toggle
 
+// Sticky navigation
+const stickyNavigation = () => {
+  const stickyNav = (entries) => {
+    const [entry] = entries;
+
+    return !entry.isIntersecting
+      ? header.classList.add("sticky")
+      : header.classList.remove("sticky");
+  };
+
+  const headerObserver = new IntersectionObserver(stickyNav, {
+    root: null,
+    threshold: 0,
+  });
+
+  headerObserver.observe(headerPlaceholder);
+};
+stickyNavigation();
+
+document.addEventListener("DOMContentLoaded", () => {
+  stickyNavigation();
+});
 // Reveal sections
 const sectionReveal = () => {
   const revealSection = function (entries, observer) {
