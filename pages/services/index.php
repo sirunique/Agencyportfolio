@@ -11,7 +11,7 @@
             <p>OUR SERVICES</p>
             <h1>Our Thoughtful Offerings</h1>
             <p>Our services are thoughtfully designed to meet the needs of both new and established businesses. We are also very flexible when it comes to creating the perfect package for you. Your best fit may be a more custom approach and fully customized package. For a more individual approach, please ask via mail.</p>
-            <p>hello@polafijalkocreative.com</p>
+            <p>deenspohub24@gmail.com</p>
         </div>
     </section>
 
