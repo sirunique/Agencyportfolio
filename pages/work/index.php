@@ -13,7 +13,7 @@ include('./pages/work/work_css.php'); // linking css work page
             <img class="grid-img" src="images/IMG-20240906-WA0013.jpg" alt="product image">
             <div class="space-between">
                 <p>Nala</p>
-                <a href="#">See more</a>
+                <a href="./pages/work/details.php">See more</a>
             </div>
         </div>
 

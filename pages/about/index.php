@@ -9,10 +9,16 @@ include('./pages/about/about_css.php');
     <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
     <div class='element-align'>
         <p>ABOUT</p>
-        <h1>The Designer</h1>
-        <p>Hello, my name is Paulina, I am the creative behind this Studio. I am passionate about crafting magnetic and sophisticated brands for values-driven business owners. Putting my heart into everything I do and sharing my love with everyone around me, I like to think that my work perfectly reflects my sensibility and passion. My mission is to be a mirror for your ideas and help you bring your vision to life.</p>
-        <p>I believe in every project being an unique journey that I go through with you. My approach to the creative process is holistic, intentional, and focused on capturing the authentic magic of your brand.</p>
-        <p>I can't wait to get to know you.</p>
+        <h1>DEENSPOHUB</h1>
+        <p>
+            We are a small and medium enterprise (SME) agency catering to forward-thinking visionaries.
+            Our agency is dedicated to assisting passionate business owners and startup entrepreneurs in uncovering the core of their vision and bringing it to life.
+            Our focus lies in creating meaningful designs and analyzing the market space to provide you with insights on the costs and profitability of your business.
+            We help you establish a unique branding style that effectively promotes your products or services.
+        </p>
+        <p>
+            Through personalized attention and storytelling, we craft magical and sophisticated brands that set you apart in the market.
+        </p>
     </div>
 </section>
 
