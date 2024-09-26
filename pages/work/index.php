@@ -77,7 +77,7 @@ include('./pages/work/work_css.php'); // linking css work page
 
 </section>
 
-<section class="section row work--2">
+<!-- <section class="section row work--2">
     <div class="slides">
         <img src="images/IMG-20240906-WA0013.jpg" alt="image" class="grid-img">
         <div class="slide">
@@ -94,15 +94,15 @@ include('./pages/work/work_css.php'); // linking css work page
             See Our Logofolio<i class="fa-thin fa-arrow-right-long"></i>
         </button>
     </div>
-</section>
+</section> -->
 
-<section class="section row work--3 projectBtn-section">
+<!-- <section class="section row work--3 projectBtn-section">
     <div class="last-slide">
         <a href="" class="left"><i class="fa-thin fa-arrow-left-long"></i>previous</a>
         <a href="" class="right">next<i class="fa-thin fa-arrow-right-long"></i></a>
     </div>
     <button class="btn">BOOK YOUR PROJECT</button>
-</section>
+</section> -->
 
 <!-- Footer -->
 <?php include('./components/footer.php');

@@ -22,31 +22,27 @@
         </div>
 
         <ul class="footer-links">
-            <li><a class="footer-link" href="#">Our Etsy Store</a></li>
-            <li><a class="footer-link" href="#">Behance</a></li>
-        </ul>
-    </div>
-
-    <div class="flex">
-        <ul class="footer-links">
-            <li><a class="footer-link" href="#">Home</a></li>
-            <li><a class="footer-link" href="#">About</a></li>
-            <li><a class="footer-link" href="#">Services</a></li>
-            <li><a class="footer-link" href="#">Work</a></li>
-            <li><a class="footer-link" href="#">Shop</a></li>
-        </ul>
-    </div>
-
-    <div class="flex">
-        <ul class="footer-links">
             <li><a class="footer-link" href="#">Terms & Conditions</a></li>
             <li><a class="footer-link" href="#">Privacy Policy</a></li>
-        </ul>
-
-        <ul>
-            <li><a class="footer-link" href="#">Inquire</a></li>
+            <li><a class="footer-link" href="inquire.php">contact</a></li>
         </ul>
     </div>
+
+    <div class="flex">
+        <ul class="footer-links">
+            <li><a class="footer-link" href="index.php">Home</a></li>
+            <li><a class="footer-link" href="about.php">About</a></li>
+            <li><a class="footer-link" href="services.php">Services</a></li>
+            <li><a class="footer-link" href="work.php">Work</a></li>
+            <!-- <li><a class="footer-link" href="#">Shop</a></li> -->
+        </ul>
+    </div>
+
+    <!-- <div class="flex">
+        <ul>
+           
+        </ul>
+    </div> -->
 </footer>
 </body>
 

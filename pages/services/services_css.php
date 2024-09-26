@@ -79,6 +79,7 @@
 
   /* Desktop and tablet view */
   @media only screen and (min-width: 780px) {
+
     .section:not(:last-of-type) {
       padding: 40px 0 20px 80px;
       gap: 2vw;

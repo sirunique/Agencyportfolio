@@ -16,10 +16,12 @@
     <div class="header-placeholder">
         <header class="header">
             <div class="logo">
-                <img
-                    src="images/IMG-20240906-WA0002-removebg.png"
-                    alt="company's logo"
-                    class="nav-logo" />
+                <a href="index.php">
+                    <img
+                        src="images/IMG-20240906-WA0002-removebg.png"
+                        alt="company's logo"
+                        class="nav-logo" />
+                </a>
             </div>
 
             <nav class="navbar">
@@ -33,11 +35,11 @@
                     <li class="nav__item">
                         <a title="navigation button" href="work.php" class="nav__link">work</a>
                     </li>
-                    <li class="nav__item">
+                    <!-- <li class="nav__item">
                         <a title="navigation button" href="#" class="nav__link">shop</a>
-                    </li>
+                    </li> -->
                     <li class="nav__item">
-                        <a title="navigation button" href="inquire.php" class="nav__link">inquire</a>
+                        <a title="navigation button" href="inquire.php" class="nav__link">contact</a>
                     </li>
                 </ul>
             </nav>
