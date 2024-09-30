@@ -1,10 +1,10 @@
 <!-- Header -->
 <?php include('./components/header.php'); ?>
 
-<!-- Page Content -->
-<section class="page-content">
-    <h1>Inquire Page</h1>
 
+
+<section class="section">
+    <h1>details</h1>
 </section>
 
 <!-- Footer -->
