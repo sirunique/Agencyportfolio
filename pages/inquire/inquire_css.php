@@ -1,19 +1,61 @@
 <style>
     .section {
+        padding: 0;
+    }
+
+    .contact {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .row:not(:last-child) {
-        border-bottom: 2px solid grey;
+    .contact:not(:nth-of-type(2)) {
+        display: none;
     }
 
-    .element-align {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        gap: 1.5rem;
-        padding: 25px;
+    .contact--1 img {
+        display: none;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: .8rem;
+    }
+
+    /* Form */
+    input,
+    textarea,
+    select {
+        width: 100%;
+        padding: 8px;
+        margin: 2px 0 20px 0;
+        border: 1px solid black;
+        border-radius: 4px;
+        background-color: transparent;
+    }
+
+    textarea {
+        height: 100px;
+        resize: none;
+    }
+
+    button {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: gray
+    }
+
+    /* Form */
+
+    .row:not(:last-child) {
+        border-bottom: 2px solid grey;
     }
 
     .grid-img {
@@ -22,11 +64,6 @@
         height: 100%;
         object-fit: cover;
         display: block;
-    }
-
-    .contact--1 img,
-    .contact--2 {
-        display: none;
     }
 
     .contact--3 {
@@ -38,32 +75,33 @@
 
     /* Desktop and tablet view */
     @media only screen and (min-width: 780px) {
-
-        .section {
+        .contact {
             grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem;
         }
 
-        .contact {
-            justify-content: space-between;
+        .contact--1 img {
+            display: block;
         }
 
         .element-align {
-            align-items: left;
             justify-content: center;
             gap: 2vw;
             width: 80%;
-            padding: 0;
         }
 
-        .img5 {
-            height: 90%;
-            width: 25vw;
+        .text-img {
+            height: 50%;
+            width: 50%;
+            object-fit: cover;
+            display: block;
         }
 
+        .contact:not(:nth-of-type(2)) {
+            display: flex;
 
-        .contact--1 img,
-        .contact--2 {
-            display: grid;
         }
 
         .contact--3 {
