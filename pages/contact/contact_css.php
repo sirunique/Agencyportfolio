@@ -1,8 +1,4 @@
 <style>
-    .section {
-        padding: 0;
-    }
-
     .contact {
         display: grid;
         grid-template-columns: 1fr;
@@ -10,6 +6,14 @@
 
     .contact:not(:nth-of-type(2)) {
         display: none;
+    }
+
+    .grid-img {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
     }
 
     .contact--1 img {
@@ -77,9 +81,6 @@
     @media only screen and (min-width: 780px) {
         .contact {
             grid-template-columns: 1fr 1fr;
-            justify-content: center;
-            align-items: center;
-            gap: 5rem;
         }
 
         .contact--1 img {
@@ -92,16 +93,8 @@
             width: 80%;
         }
 
-        .text-img {
-            height: 50%;
-            width: 50%;
-            object-fit: cover;
-            display: block;
-        }
-
         .contact:not(:nth-of-type(2)) {
             display: flex;
-
         }
 
         .contact--3 {

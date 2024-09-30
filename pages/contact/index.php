@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php
 include('./components/header.php');
-include('./pages/inquire/inquire_css.php');
+include('./pages/contact/contact_css.php');
 ?>
 
 

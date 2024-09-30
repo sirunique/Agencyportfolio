@@ -39,7 +39,7 @@
                         <a title="navigation button" href="#" class="nav__link">shop</a>
                     </li> -->
                     <li class="nav__item">
-                        <a title="navigation button" href="inquire.php" class="nav__link">contact</a>
+                        <a title="navigation button" href="contact.php" class="nav__link">contact</a>
                     </li>
                 </ul>
             </nav>
