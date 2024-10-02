@@ -105,6 +105,4 @@ include('./pages/work/work_css.php'); // linking css work page
 </section> -->
 
 <!-- Footer -->
-<?php include('./components/footer.php');
-include("./pages/work/work_js.php") // Including JavaScript 
-?>
+<?php include('./components/footer.php') ?>
