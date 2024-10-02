@@ -6,7 +6,7 @@
 
     <!-- Page Content -->
     <section class="section  services row services--1">
-        <img class='grid-img img1' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img1 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class='element-align '>
             <p>OUR SERVICES</p>
             <!-- <h1>Our Thoughtful Offerings</h1> -->
@@ -17,7 +17,7 @@
 
     <section class="section  services row services--2 section-padding">
         <h2 class="branding">Branding Offer</h2>
-        <img class='grid-img img2' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img2 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align">
             <div class="space-between">
                 <p>1-2 WEEKS</p>
@@ -38,7 +38,7 @@
     </section>
 
     <section class="section  services row services--3 section-padding">
-        <img class='grid-img img3 services_grid1' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img3 services_grid1 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align services_grid2">
             <div class="space-between">
                 <p>3-4 WEEKS</p>
@@ -65,7 +65,7 @@
     </section>
 
     <section class="section services row services--4 section-padding">
-        <img class='grid-img img4' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img4 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
 
         <div class="element-align">
             <div class="space-between">
@@ -96,7 +96,7 @@
 
 
     <section class="section  services row services--5 section-padding">
-        <img class='grid-img services_grid1 section_2-img img5' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img services_grid1 section_2-img img5 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
         <div class="element-align services_grid2 ">
             <h1>SERVICES</h1>
             <p>Crafted with care, our services are tailored to cater to the requirements of both new and established businesses through a subscription plan. To guarantee each project gets the necessary focus, we only accept a limited number of clients per month. Our services are committed to capturing the essence of your business and establishing a connection with your target audience.</p>
@@ -121,12 +121,12 @@
     </section>
 
     <section class="section  services row services--7">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-        <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
     </section>
 
     <!-- Footer -->

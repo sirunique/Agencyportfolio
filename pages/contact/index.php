@@ -8,7 +8,7 @@ include('./pages/contact/contact_css.php');
 
 <!-- Page Content -->
 <div class="section contact row contact--1">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
 
     <div class="text element-align">
         <h1>Get in Touch</h1>
@@ -66,16 +66,16 @@ include('./pages/contact/contact_css.php');
         <a class="inquire" href="#">See the details.</a>
     </div>
 
-    <img class='text-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img text-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
 </section>
 
 <section class="section contact row contact--3">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
-    <img class='grid-img' src="images/IMG-20240906-WA0012.jpg" alt="images">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
 </section>
 
 <!-- Footer -->
