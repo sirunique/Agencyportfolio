@@ -7,7 +7,7 @@ include('./pages/details/details_css.php');
 
 
 <section class="details flex">
-    <div class="text-container flex">
+    <div class="text-container">
         <div class="text-1">
             <h1>Nala</h1>
             <span>Branding, Box Packagings</span>
