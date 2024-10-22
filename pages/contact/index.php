@@ -15,7 +15,7 @@ include('./pages/contact/contact_css.php');
         <p>Ready to visualize your brand's highest self? We'd love to hear from you! Please fill out the form below and let's connect.</p>
         <span>For collaboration requests and additional questions,
             please contact me via email:</span>
-        <a class="inquire" href="#">hello@polafijalkocreative.com</a>
+        <a class="inquire" href="#">contact@deenspo24@gmail.com</a>
 
         <form>
             <label for="name">Your full name*</label>
