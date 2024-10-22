@@ -10,7 +10,7 @@ include('./pages/work/work_css.php'); // linking css work page
     <p class="work-text">A few past loves. Here you’ll find a collection of our selected case studies</p>
     <div class="images-container">
         <div class="img">
-            <a href="celeste_brand.php"><img class='grid-img lazy-img' src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="Product image"></a>
+            <a href="celeste_brand.php"><img class='grid-img lazy-img' src="images/celeste_lazy_img.jpg" data-src="images/celesteBrand.jpg" alt="Product image"></a>
             <div class="space-between">
                 <p>CELESTE BRAND</p>
                 <a href="celeste_brand.php">See more</a>
@@ -18,7 +18,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="samuel_cray.php"><img class='grid-img lazy-img' src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="Product image"></a>
+            <a href="samuel_cray.php"><img class='grid-img lazy-img' src="images/samuelCray.jpg" data-src="images/samuelCray.jpg" alt="Product image"></a>
             <div class="space-between">
                 <p>SAMUEL CRAY</p>
                 <a href="samuel_cray.php">See more</a>
@@ -26,7 +26,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="myrawoman.php"><img class='grid-img lazy-img' src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="Product image"></a>
+            <a href="myrawoman.php"><img class='grid-img lazy-img' src="images/myrawoman_lazy_img.jpg" data-src="images/myrawoman.jpg" alt="Product image"></a>
             <div class="space-between">
                 <p>MYRAWOMAN</p>
                 <a href="myrawoman.php">See more</a>
@@ -34,7 +34,7 @@ include('./pages/work/work_css.php'); // linking css work page
         </div>
 
         <div class="img">
-            <a href="pantry_aid.php"><img class='grid-img lazy-img' src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="Product image"></a>
+            <a href="pantry_aid.php"><img class='grid-img lazy-img' src="images/green_lazy_img.png" data-src="images/Green Monotone Minimalist Famine Poverty Crisis Hub Social Media Post.png" alt="Product image"></a>
             <div class="space-between">
                 <p>PANTRY AID</p>
                 <a href="pantry_aid.php">See more</a>
