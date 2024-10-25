@@ -178,7 +178,7 @@ body {
   text-transform: uppercase;
   background-color: transparent;
   border: 2px solid gray;
-  padding: 20px 40px;
+  padding: 20px;
   transition: color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
 }
@@ -360,6 +360,10 @@ footer h3 {
 
   .align-btn {
     justify-content: flex-start;
+  }
+
+  .btn {
+    padding: 20px 40px;
   }
 
   /* section */
