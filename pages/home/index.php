@@ -6,7 +6,7 @@
     <div class="images">
         <div class="overlay--text">
             <h1>Multidisciplinary Independent Creative Studio specializing in considered and soulful designs, embracing refined minimalism and beauty.</h1>
-            <button type="button" class="btn">EXPLORE THE SERVICES</button>
+            <a href="services.php" class="btn">EXPLORE THE SERVICES</a>
         </div>
         <img class="grid-img img-1 lazy-img" src="images/image1-lazy-loading.jpg" data-src="images/IMG-20240906-WA0011.jpg" alt="section__img">
         <img class="grid-img img-2 lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="section__img">
@@ -38,9 +38,9 @@
             brands.
         </p>
         <div class="align-btn">
-            <button title="Book your project" type="button" class="btn">
+            <a href="contact.php" class="btn">
                 Book Your Project<i class="fa-solid fa-arrow-right-long"></i>
-            </button>
+            </a>
         </div>
     </div>
 </section>
@@ -58,9 +58,9 @@
         </p>
 
         <div class="align-btn">
-            <button type="button" title="see details" class="btn">
+            <a href="services.php" class="btn">
                 See the Details<i class="fa-solid fa-arrow-right-long"></i>
-            </button>
+            </a>
         </div>
     </div>
 
