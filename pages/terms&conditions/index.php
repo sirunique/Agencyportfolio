@@ -64,7 +64,7 @@ include('./pages/terms&conditions/terms&conditions_css.php');
         </li>
         <li class="list">
             <h3>13. Contact Information</h3>
-            <p>For any questions or concerns regarding these terms, please contact us at [contact@deenspo24@gmail.com).</p>
+            <p>For any questions or concerns regarding these terms, please contact us at contact @ <span class="span">deenspo24@gmail.com</span>.</p>
             <p>By using DeenspoHub’s services and software, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>
         </li>
     </ul>

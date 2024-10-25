@@ -1,5 +1,11 @@
 <style>
-    .element-align,
+    .element-align {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 5rem 1.5rem;
+    }
+
     .list {
         display: flex;
         flex-direction: column;
@@ -24,6 +30,10 @@
 
     p {
         font-family: 13px;
+    }
+
+    .span {
+        font-weight: bold
     }
 
     /* Desktop and Tablet */
