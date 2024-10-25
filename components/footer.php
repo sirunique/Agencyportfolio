@@ -22,8 +22,8 @@
         </div>
 
         <ul class="footer-links">
-            <li><a class="footer-link" href="#">Terms & Conditions</a></li>
-            <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            <li><a class="footer-link" href="terms&conditions.php">Terms & Conditions</a></li>
+            <li><a class="footer-link" href="privacy_policy.php">Privacy Policy</a></li>
             <li><a class="footer-link" href="contact.php">contact</a></li>
         </ul>
     </div>
