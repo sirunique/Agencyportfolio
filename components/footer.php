@@ -8,7 +8,7 @@
         <a href="">
             <p class="email-link">contact@deenspo24@gmail.com</p>
         </a>
-        <span>Based in Africa, Nigeria working worldwide</span>
+        <span class="africa">Based in Africa, Nigeria working worldwide</span>
     </div>
 
     <div class="flex">

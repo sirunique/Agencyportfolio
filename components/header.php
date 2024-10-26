@@ -18,7 +18,7 @@
             <div class="logo">
                 <a href="index.php">
                     <img
-                        src="images/IMG-20240906-WA0002-removebg.png"
+                        src="images/IMG-20240906-WA0001-removebg-preview.png"
                         alt="company's logo"
                         class="nav-logo" />
                 </a>
