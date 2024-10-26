@@ -12,6 +12,17 @@
     </div>
 
     <div class="flex">
+        <ul class="footer-links">
+            <li><a class="footer-link" href="index.php">Home</a></li>
+            <li><a class="footer-link" href="about.php">About</a></li>
+            <li><a class="footer-link" href="services.php">Services</a></li>
+            <li><a class="footer-link" href="work.php">Work</a></li>
+            <li><a class="footer-link" href="contact.php">contact</a></li>
+            <!-- <li><a class="footer-link" href="#">Shop</a></li> -->
+        </ul>
+    </div>
+
+    <div class="flex">
         <div class="gap">
             <a href="https://www.instagram.com/deenspo_?igsh=MXdpczNtNmNmNTFzdA%3D%3D&utm_source=qr">
                 <h2 class="social-link">Pinterest</h2>
@@ -24,19 +35,9 @@
         <ul class="footer-links">
             <li><a class="footer-link" href="terms&conditions.php">Terms & Conditions</a></li>
             <li><a class="footer-link" href="privacy_policy.php">Privacy Policy</a></li>
-            <li><a class="footer-link" href="contact.php">contact</a></li>
         </ul>
     </div>
 
-    <div class="flex">
-        <ul class="footer-links">
-            <li><a class="footer-link" href="index.php">Home</a></li>
-            <li><a class="footer-link" href="about.php">About</a></li>
-            <li><a class="footer-link" href="services.php">Services</a></li>
-            <li><a class="footer-link" href="work.php">Work</a></li>
-            <!-- <li><a class="footer-link" href="#">Shop</a></li> -->
-        </ul>
-    </div>
 
     <!-- <div class="flex">
         <ul>
