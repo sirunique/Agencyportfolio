@@ -50,7 +50,7 @@ include('./pages/contact/contact_css.php');
     </div>
 </div>
 
-<section class="section contact row contact--2">
+<section class="section row contact--2">
     <div class="element-align">
         <h1>SERVICES</h1>
         <p>Crafted with care, our services are tailored to cater to the requirements of both new and established businesses through a subscription plan. To guarantee each project gets the necessary focus, we only accept a limited number of clients per month. Our services are committed to capturing the essence of your business and establishing a connection with your target audience.</p>
@@ -66,7 +66,7 @@ include('./pages/contact/contact_css.php');
         <a class="inquire" href="#">See the details.</a>
     </div>
 
-    <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+    <img class='img2 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
 </section>
 
 <section class="section contact row contact--3">

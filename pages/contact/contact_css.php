@@ -4,12 +4,11 @@
         grid-template-columns: 1fr;
     }
 
-    .contact:not(:nth-of-type(2)) {
+    .contact--2 {
         display: none;
     }
 
     .grid-img {
-        flex: 1;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -85,11 +84,18 @@
             display: flex;
             flex-direction: column;
             gap: 2vw;
-            padding: 3rem 2rem;
+            /* padding: 3rem 2rem; */
         }
 
-        .contact:not(:nth-of-type(2)) {
+        .contact--2 {
             display: flex;
+            flex-direction: row;
+        }
+
+        .img2 {
+            width: 40%;
+            height: 60%;
+            /* object-fit: cover; */
         }
 
         .contact--3 {
