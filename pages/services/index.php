@@ -6,7 +6,7 @@
 
     <!-- Page Content -->
     <section class="section  services row services--1">
-        <img class='grid-img img1 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img1 lazy-img' src="images/weekplaning.jpg" data-src="images/weekplaning.jpg" alt="images">
         <div class='element-align '>
             <p>OUR SERVICES</p>
             <!-- <h1>Our Thoughtful Offerings</h1> -->
@@ -17,13 +17,14 @@
 
     <section class="section  services row services--2 section-padding">
         <h2 class="branding">Branding Offer</h2>
-        <img class='grid-img img2 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img2 lazy-img' src="images/serviceImage.jpg" data-src="images/serviceImage.jpg" alt="images">
         <div class="element-align">
             <div class="space-between">
                 <p>1-2 WEEKS</p>
                 <p>100,000 Naira</p>
             </div>
-            <h1>LOGO DESIGN</h1>
+            <h1>BRANDING SUBSCRIPTION PLAN
+            </h1>
             <p>This package is designed for individuals who value simplicity and sophistication presented in a concise manner. "Logo designs" consist of primary logo designs or logo marks, serving as a vital branding component that can be applied consistently across different platforms to establish a unified and recognizable identity.
             </p>
 
@@ -38,7 +39,7 @@
     </section>
 
     <section class="section  services row services--3 section-padding">
-        <img class='grid-img img3 services_grid1 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img3 services_grid1 lazy-img' src="images/minimal.jpg" data-src="images/minimal.jpg" alt="images">
         <div class="element-align services_grid2">
             <div class="space-between">
                 <p>3-4 WEEKS</p>
@@ -65,7 +66,7 @@
     </section>
 
     <section class="section services row services--4 section-padding">
-        <img class='grid-img img4 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img img4 lazy-img' src="images/lastImage.jpg" data-src="images/lastImage.jpg" alt="images">
 
         <div class="element-align">
             <div class="space-between">
@@ -94,30 +95,50 @@
         </div>
     </section>
 
+    <section class="section  services row services--3 section-padding">
+        <img class='grid-img img3 services_grid1 lazy-img' src="images/imagesforwebsite.jpg" data-src="images/imagesforwebsite.jpg" alt="images">
+        <div class="element-align services_grid2">
+            <div class="space-between">
+                <p>3-4 WEEKS</p>
+                <p>100,000 Naira</p>
+            </div>
+            <h1>DIGITAL MARKETING</h1>
+            <p>We provide a range of extra services to cater to your specific requirements:</p>
+            <p>
+                Our digital marketing services provide holistic solutions to improve every aspect of your online visibility. Through the implementation of impactful business tactics, our goal is to enhance your business's expansion. Our services encompass high-quality marketing strategies, sales procedures, email campaigns, and captivating social media content. We concentrate on drawing in your desired audience and transforming them into clients by delivering compelling content and visually appealing posts to elevate your business or product. With the aid of content creation and utilizing user-generated content, we aim to promote your content effectively and reach the intended audience.
+            </p>
+
+            <p>What's included:</p>
+            <ul class="services-lists">
+                <li>Social media management</li>
+                <li>Content writing</li>
+                <li>Copywriting</li>
+                <li>Script writing</li>
+                <li>Email marketing</li>
+                <li>Influencing marketing</li>
+            </ul>
+        </div>
+    </section>
+
 
     <section class="section  services row services--5 section-padding">
-        <img class='grid-img services_grid1 section_2-img img5 lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="images">
+        <img class='grid-img services_grid1 section_2-img img5 lazy-img' src="images/ViveBrandingShoot.jpg" data-src="images/ViveBrandingShoot.jpg" alt="images">
         <div class="element-align services_grid2 ">
-            <h1>SERVICES</h1>
-            <p>Crafted with care, our services are tailored to cater to the requirements of both new and established businesses through a subscription plan. To guarantee each project gets the necessary focus, we only accept a limited number of clients per month. Our services are committed to capturing the essence of your business and establishing a connection with your target audience.</p>
+            <h1>OUR SERVICES</h1>
+            <p>We offer a variety of additional services customized to suit your individual needs, such as:</p>
 
             <!-- <p>What's included:</p> -->
             <ul style="display: flex; flex-direction: column; gap: 0.8rem;">
-                <li>Branding</li>
-                <li>Digital marketing</li>
+                <li>Media+content creation</li>
+                <li>Voice over + brand content</li>
                 <li>Advert</li>
                 <li>Project management</li>
-                <li>Product design/ management</li>
             </ul>
-
-            <!-- <p>If you would like to know the details of our other offerings and learn more about our pricing and process - please fill out the application form</p> -->
-
-            <a class="inquire" href="#">See the details.</a>
         </div>
     </section>
 
     <section class="section  services row services--6 projectBtn-section">
-        <button class="btn">Book Your Project</button>
+        <button class="btn">Start Your Project</button>
     </section>
 
     <section class="section  services row services--7">
