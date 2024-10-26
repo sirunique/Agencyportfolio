@@ -62,14 +62,6 @@
         border-bottom: 2px solid grey;
     }
 
-    .grid-img {
-        flex: 1;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-    }
-
     .contact--3 {
         display: grid;
         grid-template-columns: repeat(3, auto);
@@ -81,6 +73,8 @@
     @media only screen and (min-width: 780px) {
         .contact {
             grid-template-columns: 1fr 1fr;
+            column-gap: 10rem;
+            row-gap: 0;
         }
 
         .contact--1 img {
@@ -88,9 +82,10 @@
         }
 
         .element-align {
-            justify-content: center;
+            display: flex;
+            flex-direction: column;
             gap: 2vw;
-            width: 80%;
+            padding: 3rem 2rem;
         }
 
         .contact:not(:nth-of-type(2)) {
