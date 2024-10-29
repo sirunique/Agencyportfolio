@@ -69,7 +69,7 @@
     }
 
     /* Desktop and tablet view */
-    @media only screen and (min-width: 780px) {
+    @media only screen and (min-width: 768px) {
         .contact {
             grid-template-columns: 1fr 1fr;
             column-gap: 10rem;

@@ -44,7 +44,7 @@
 
 
     /* Desktop and Tablet */
-    @media only screen and (min-width: 780px) {
+    @media only screen and (min-width: 768px) {
         .element-align {
             padding: 15rem 18rem;
         }

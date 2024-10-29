@@ -44,7 +44,7 @@
 
 
     /* Desktop and tablet view */
-    @media only screen and (min-width: 780px) {
+    @media only screen and (min-width: 768px) {
         .section {
             padding: 0;
             gap: 0 10vw;
