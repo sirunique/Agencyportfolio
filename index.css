@@ -217,7 +217,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  column-gap: 3rem;
+  gap: 3rem;
 }
 
 .footer--logo {
