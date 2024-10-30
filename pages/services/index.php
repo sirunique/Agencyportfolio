@@ -6,7 +6,7 @@
 
     <!-- Page Content -->
     <section class="section  services row services--1">
-        <img class='grid-img img1 lazy-img' src="images/weekplaning.jpg" data-src="images/weekplaning.jpg" alt="images">
+        <img class='image img1 lazy-img' src="images/weekplaning.jpg" data-src="images/weekplaning.jpg" alt="images">
         <div class='element-align '>
             <p>OUR SERVICES</p>
             <!-- <h1>Our Thoughtful Offerings</h1> -->
@@ -137,7 +137,7 @@
         </div>
     </section>
 
-    <section class="section  services row services--6 projectBtn-section">
+    <section class="services row services--6 projectBtn-section">
         <button class="btn">Start Your Project</button>
     </section>
 
