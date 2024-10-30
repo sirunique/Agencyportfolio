@@ -331,6 +331,10 @@ footer h3 {
     color: white;
   }
 
+  .color {
+    color: white;
+  }
+
   .section p {
     width: 85%;
     font-size: 1vw;

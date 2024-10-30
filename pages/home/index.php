@@ -6,7 +6,7 @@
     <div class="images">
         <div class="overlay--text">
             <h1>Multidisciplinary Independent Creative Studio specializing in considered and soulful designs, embracing refined minimalism and beauty.</h1>
-            <a href="services.php" class="btn">EXPLORE THE SERVICES</a>
+            <a href="services.php" class="btn color">EXPLORE THE SERVICES</a>
         </div>
         <img class="grid-img img-1" src="images/UntitledDesign.png" data-src="images/UntitledDesign.png" alt="section__img">
         <img class="grid-img img-2 " src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="section__img">
