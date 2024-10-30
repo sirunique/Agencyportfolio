@@ -328,6 +328,7 @@ footer h3 {
   .overlay--text h1 {
     padding-bottom: 3rem;
     font-size: 1.5vw;
+    color: white;
   }
 
   .section p {
