@@ -230,6 +230,7 @@ footer {
 .social-link {
   transition: color 0.5s ease;
   color: #cccccc;
+  font-size: 1.2rem;
 }
 
 .email-link:hover,
