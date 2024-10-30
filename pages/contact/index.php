@@ -6,7 +6,7 @@ include('./pages/contact/contact_css.php');
 
 
 
-<!-- Page Content -->
+
 <div class="section contact row contact--1">
     <img class='grid-img lazy-img' src="images/Contact.jpg" data-src="images/Contact.jpg" alt="image">
 

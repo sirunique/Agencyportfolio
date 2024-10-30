@@ -80,22 +80,24 @@
             display: block;
         }
 
-        .element-align {
-            display: flex;
-            flex-direction: column;
-            gap: 2vw;
-            /* padding: 3rem 2rem; */
-        }
-
         .contact--2 {
             display: flex;
             flex-direction: row;
+            align-items: center;
+            height: auto;
+            padding: 2rem;
+            gap: 3rem;
         }
 
         .img2 {
-            width: 40%;
-            height: 60%;
-            /* object-fit: cover; */
+            width: 30%;
+            height: auto;
+            max-width: 400px;
+            object-fit: cover;
+        }
+
+        .element-align:nth-of-type(2) {
+            width: 70%;
         }
 
         .contact--3 {
