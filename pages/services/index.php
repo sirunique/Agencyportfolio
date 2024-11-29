@@ -21,7 +21,6 @@
         <div class="element-align">
             <div class="space-between">
                 <p>1-2 WEEKS</p>
-                <p>100,000 Naira</p>
             </div>
             <h1>BRANDING SUBSCRIPTION PLAN
             </h1>
@@ -43,7 +42,6 @@
         <div class="element-align services_grid2">
             <div class="space-between">
                 <p>3-4 WEEKS</p>
-                <p>100,000 Naira</p>
             </div>
             <h1>MINIMAL BRANDING</h1>
             <p>This package is designed for those who value simple and purposeful aesthetics that align with their vision. "Minimal" provides everything necessary to launch your branding project. It's a great option for brands starting out with a tight budget but aiming to create a significant impact
@@ -71,7 +69,6 @@
         <div class="element-align">
             <div class="space-between">
                 <p>8-12 WEEKS</p>
-                <p>100,000 Naira</p>
             </div>
             <h1>CREATIVE BRANDING</h1>
             <p>Those ready to invest in a cohesive and captivating brand identity can access a complete branding package. This package is designed to breathe life into your vision, guaranteeing a delightful and unified portrayal. If you are enthusiastic about exploring your ideas in-depth and establishing a substantial brand identity by delving into your brand's core, then this customized package is perfect for you.
@@ -100,7 +97,6 @@
         <div class="element-align services_grid2">
             <div class="space-between">
                 <p>3-4 WEEKS</p>
-                <p>100,000 Naira</p>
             </div>
             <h1>DIGITAL MARKETING</h1>
             <p>We provide a range of extra services to cater to your specific requirements:</p>
@@ -143,11 +139,11 @@
 
     <section class="section  services row services--7">
         <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <!-- <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
         <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
         <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
         <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
-        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
-        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image">
+        <img class='grid-img lazy-img' src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="image"> -->
     </section>
 
     <!-- Footer -->
