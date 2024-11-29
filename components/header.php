@@ -18,7 +18,7 @@
             <div class="logo">
                 <a href="index.php">
                     <img
-                        src="images/IMG-20240906-WA0002-removebg.png"
+                        src="images/logo.png"
                         alt="company's logo"
                         class="nav-logo" />
                 </a>
@@ -35,11 +35,11 @@
                     <li class="nav__item">
                         <a title="navigation button" href="work.php" class="nav__link">work</a>
                     </li>
-                    <!-- <li class="nav__item">
-                        <a title="navigation button" href="#" class="nav__link">shop</a>
-                    </li> -->
                     <li class="nav__item">
                         <a title="navigation button" href="contact.php" class="nav__link">contact</a>
+                    </li>
+                    <li class="nav__item">
+                        <a title="navigation button" href="blog.php" class="nav__link">blog</a>
                     </li>
                 </ul>
             </nav>

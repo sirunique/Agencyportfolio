@@ -6,17 +6,16 @@
     <div class="images">
         <div class="overlay--text">
             <h1>Multidisciplinary Independent Creative Studio specializing in considered and soulful designs, embracing refined minimalism and beauty.</h1>
-            <button type="button" class="btn">EXPLORE THE SERVICES</button>
+            <a href="services.php" class="btn color">EXPLORE THE SERVICES</a>
         </div>
-        <img class="grid-img img-1 lazy-img" src="images/image1-lazy-loading.jpg" data-src="images/IMG-20240906-WA0011.jpg" alt="section__img">
-        <img class="grid-img img-2 lazy-img" src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="section__img">
+        <img class="grid-img img-1" src="images/UntitledDesign.png" data-src="images/UntitledDesign.png" alt="section__img">
+        <img class="grid-img img-2 " src="images/image3-lazy-loading.jpg" data-src="images/IMG-20240906-WA0013.jpg" alt="section__img">
     </div>
 
     <div class="element-align first__element-align">
-        <p>ABOUT THE STUDIO</p>
+        <p>ABOUT THE HUB</p>
         <h2>
-            We craft sophisticated and thoughtful branding projects, capturing the
-            brand's best self.
+            We develop intricate and insightful projects that encapsulate the brand's core identity within a subscription model
         </h2>
     </div>
 </section>
@@ -26,21 +25,19 @@
         <img class="grid-img lazy-img" src="images/image2-lazy-loading.jpg" data-src="images/IMG-20240906-WA0012.jpg" alt="section__img">
     </div>
     <div class="box element-align">
-        <p>WHAT WE DO</p>
-        <h1>About the Studio</h1>
-        <p>We are a holistic branding design studio for timeless visionaries</p>
+        <!-- <p>WHAT WE DO</p> -->
+        <h1>ABOUT DEENSPOHUB</h1>
         <p>
-            Our Creative Studio is driven by intention. We help compassionate
-            business owners find the essence of their vision and bring it to life.
-            We focus on meaningful design and emotional storytelling, giving to
-            each project one-on-one attention. Through timeless minimalism and
-            embracing your uniqueness, we create magnetic and sophisticated
-            brands.
+            We are a small and medium enterprise (SME) agency catering to forward-thinking visionaries.
+            Our agency is dedicated to assisting passionate business owners and startup entrepreneurs in uncovering the core of their vision and bringing it to life.
+            Our focus lies in creating meaningful designs and analyzing the market space to provide you with insights on the costs and profitability of your business.
+            We help you establish a unique branding style that effectively promotes your products or services.
+            Through personalized attention and storytelling, we craft magical and sophisticated brands that set you apart in the market.
         </p>
         <div class="align-btn">
-            <button title="Book your project" type="button" class="btn">
-                Book Your Project<i class="fa-solid fa-arrow-right-long"></i>
-            </button>
+            <a href="contact.php" class="btn">
+                Start Your Project<i class="fa-solid fa-arrow-right-long"></i>
+            </a>
         </div>
     </div>
 </section>
@@ -49,27 +46,24 @@
     <div class="row box element-align">
         <h1>Services</h1>
         <p>
-            Crafted with care, our services are designed to meet the needs of new
-            and established businesses alike. We also take limited amount of
-            clients per month in order to ensure every project receives the
-            focused attention it deserves. Our services are dedicated to capturing
-            the essence of your business and creating a connection with your ideal
-            audience.
+            Crafted with care, our services are tailored to cater to the requirements of both new and established businesses through a subscription plan.
+            To guarantee each project gets the necessary focus, we only accept a limited number of clients per month.
+            Our services are committed to capturing the essence of your business and establishing a connection with your target audience.
         </p>
 
         <div class="align-btn">
-            <button type="button" title="see details" class="btn">
+            <a href="services.php" class="btn">
                 See the Details<i class="fa-solid fa-arrow-right-long"></i>
-            </button>
+            </a>
         </div>
     </div>
 
     <div class="row box multi-grid">
-        <div class="grid row"><a href="#">Brand Identity</a></div>
-        <div class="grid row"><a href="#">Collateral Design</a></div>
-        <div class="grid row"><a href="#">Packaging Design</a></div>
-        <div class="grid row"><a href="#">Social Media Design</a></div>
-        <div class="grid row"><a href="#">Web Design</a></div>
+        <div class="grid row"><a href="#">Branding</a></div>
+        <div class="grid row"><a href="#">Digital marketing</a></div>
+        <div class="grid row"><a href="#">Advert</a></div>
+        <div class="grid row"><a href="#">Project management</a></div>
+        <div class="grid row"><a href="#">Product management</a></div>
     </div>
 </section>
 

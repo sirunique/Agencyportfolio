@@ -52,7 +52,7 @@
     }
 
     /* Desktop */
-    @media only screen and (min-width: 780px) {
+    @media only screen and (min-width: 768px) {
         .details {
             padding: 17vw 17vw 5vw 17vw;
         }

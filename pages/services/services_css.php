@@ -32,7 +32,10 @@
   }
 
   .img1 {
-    padding: 0 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
   }
 
   .branding {
@@ -58,7 +61,14 @@
   }
 
   .projectBtn-section {
-    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .btn {
+    padding: 5px 10px;
   }
 
   .services--7 {
@@ -78,17 +88,17 @@
 
 
   /* Desktop and tablet view */
-  @media only screen and (min-width: 780px) {
+  @media only screen and (min-width: 768px) {
 
     .section:not(:last-of-type) {
-      padding: 40px 0 20px 80px;
+      padding: 20px;
       gap: 2vw;
     }
 
-    .section:nth-of-type(5) {
+    /* .section:nth-of-type(5) {
       grid-template-columns: auto auto;
       padding-left: 10vw;
-    }
+    } */
 
     .element-align {
       align-items: left;
@@ -109,6 +119,11 @@
 
     .section-padding {
       padding-bottom: 0;
+    }
+
+    .img1 {
+      height: 50%;
+      width: 50%;
     }
 
     .services_grid1 {

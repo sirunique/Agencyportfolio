@@ -6,26 +6,9 @@
             class="footer--logo" />
         <h3>Let's connect! I 'd love to hear from you!</h3>
         <a href="">
-            <p class="email-link">hello@deenspohub.com</p>
+            <p class="email-link">contact@deenspo24@gmail.com</p>
         </a>
-        <span>Based in Africa, Nigeria working worldwide</span>
-    </div>
-
-    <div class="flex">
-        <div class="gap">
-            <a href="#">
-                <h2 class="social-link">Pinterest</h2>
-            </a>
-            <a href="#">
-                <h2 class="social-link">Instagram</h2>
-            </a>
-        </div>
-
-        <ul class="footer-links">
-            <li><a class="footer-link" href="#">Terms & Conditions</a></li>
-            <li><a class="footer-link" href="#">Privacy Policy</a></li>
-            <li><a class="footer-link" href="inquire.php">contact</a></li>
-        </ul>
+        <span class="africa">Based in Africa, Nigeria working worldwide</span>
     </div>
 
     <div class="flex">
@@ -34,9 +17,28 @@
             <li><a class="footer-link" href="about.php">About</a></li>
             <li><a class="footer-link" href="services.php">Services</a></li>
             <li><a class="footer-link" href="work.php">Work</a></li>
+            <li><a class="footer-link" href="contact.php">Contact</a></li>
             <!-- <li><a class="footer-link" href="#">Shop</a></li> -->
         </ul>
     </div>
+
+    <div class="flex">
+        <div class="gap">
+        <a href="https://pin.it/1gkbCDF3f">
+            <h2 class="social-link">Pinterest</h2>
+        </a>
+        <a href="https://www.instagram.com/deenspo_?igsh=MXdpczNtNmNmNTFzdA%3D%3D&utm_source=qr">
+                <h2 class="social-link">Instagram</h2>
+            </a>
+        </div>
+
+        <ul class="footer-links">
+            <li><a class="footer-link" href="terms&conditions.php">Terms & Conditions</a></li>
+            <li><a class="footer-link" href="privacy_policy.php">Privacy Policy</a></li>
+            <li><a class="footer-link" href="blog.php">Blog</a></li>
+        </ul>
+    </div>
+
 
     <!-- <div class="flex">
         <ul>
