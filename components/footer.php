@@ -24,10 +24,10 @@
 
     <div class="flex">
         <div class="gap">
-            <a href="https://www.instagram.com/deenspo_?igsh=MXdpczNtNmNmNTFzdA%3D%3D&utm_source=qr">
-                <h2 class="social-link">Pinterest</h2>
-            </a>
-            <a href="https://pin.it/1gkbCDF3f">
+        <a href="https://pin.it/1gkbCDF3f">
+            <h2 class="social-link">Pinterest</h2>
+        </a>
+        <a href="https://www.instagram.com/deenspo_?igsh=MXdpczNtNmNmNTFzdA%3D%3D&utm_source=qr">
                 <h2 class="social-link">Instagram</h2>
             </a>
         </div>
